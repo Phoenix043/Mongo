@@ -19,7 +19,6 @@ const userSchema = new mongoose.Schema({
   },
   age: {
     type: Number,
-    // You can add additional validations for the age if needed
   },
 }, { versionKey: false }); // versionKey: false removes the version key
 
